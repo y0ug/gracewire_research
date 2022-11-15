@@ -1,0 +1,9 @@
+2022-02-10 12:56:08 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 483, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 462, in emulate
+    bot = P2PBot()
+  File "../tools/grace_p2p_client.py", line 160, in __init__
+    self.node_id = node_id
+NameError: name 'node_id' is not defined

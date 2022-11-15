@@ -1,0 +1,55 @@
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:listening on 0.0.0.0:52829
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:starting received thread
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0xeb51, dwCrc32=0x0)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x1, dwSessionId=0xeb51), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=1d37319760cfbc42b559833448f60ba6, wNodeBindedPort=0xce5d)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 90 | 80379c7014a51e86e6cd25d0cade9cd597d99db7b117e04f3cc235d903b4c8768b2607d16b8080b55d236e270000001174efab81d16b8080613c673c0c508fc3080992ae6b4753a99db7b117e04f3cc235d903b4c8768b26dd4e
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0xeb51, dwCrc32=0x0)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x1, dwSessionId=0xeb51), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=1d37319760cfbc42b559833448f60ba6, wNodeBindedPort=0xce5d)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:78.128.112.139:33964 | send | size 90 | 80379c7014a51e86e6cd25d0cade9cd597d99db7b117e04f3cc235d903b4c8768b2607d16b8080b55d236e270000001174efab81d16b8080613c673c0c508fc3080992ae6b4753a99db7b117e04f3cc235d903b4c8768b26dd4e
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 43 | 80379c7014a51e86e6cd25d0cade9cd597d99db7b117e04f3cc235d903b4c8768b2610d16b80802716e3bc
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x10, dwWaterMark=0xeb51, dwCrc32=0xbce31627)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:[#] echo recv
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 90 | af37b35f3b8a31a9c9e20affe5f1b3fab8f6ef704f62c9ead9e91c36a4348ecf598d07036e8d8433610e4b270000001aaaa57bad52a1b6174e134813237fa0ec2726bd8144687c865fa3ae174622ab235986ab4de7ffdbdb5986
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0xaf, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0x2b22c1ac, dwCrc32=0x4b0e6133)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x27, dwCrc32=0x7ba5aa1a) | dwCrc32Data: 0x7ba5aa1a
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x2, dwSessionId=0xb8190efd)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:  [#] add node to probes
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:  NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x2, dwSessionId=0xb8190efd), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=f00c01b8e98d048cf62904e248507474, wNodeBindedPort=0x29f6)
+2022-02-10 14:22:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | af37b35f3b8a31a9c9e20affe5f1b3fab8f6ef704f62c9ead9e91c36a4348ecf598d10036e8d84a12ace99
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 84 | 03371ff397269d05654ea653495d1f56145a43dce3ce65467545b09a08982263f52107b0ffdce1365c066521000000b7a30e1405ef2809639a707bffda5aa94b8a3fb0b887571b420b83ddf2523f51d402021d01
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x3, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0xe2dffcb3, dwCrc32=0x65065c36)
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x21, dwCrc32=0x140ea3b7) | dwCrc32Data: 0x140ea3b7
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x6, dwSessionId=0x600a2bec)
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:  [#] Get a record id
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:  record_id: 997378fcd959aa48893cb3bb84541841 record_info: [b'\x80\xde\xf1Q<R\xd7\x01', 30, b'']
+2022-02-10 14:22:30 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | 03371ff397269d05654ea653495d1f56145a43dce3ce65467545b09a08982263f52110b0ffdce1a417c6b7
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 84 | 1d3701ed8938831b7b50b84d574301480a445dc2fdd07b586b5bae8416863c7deb3f0754f83361f24da56521000000105b07021bf136177da6a08d28afbed352afb87ee8e1786fc2156d66e64c214fca1c1c0c1f
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x1d, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0x7c2ee549, dwCrc32=0x65a54df2)
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x21, dwCrc32=0x2075b10) | dwCrc32Data: 0x2075b10
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x6, dwSessionId=0x600a2bec)
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:  [#] Get a record id
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:  record_id: bbbd9035b2a3ce4fb2a563f5fc6572df record_info: [b'p{\xfbQ<R\xd7\x01', 17, b'']
+2022-02-10 14:23:12 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | 1d3701ed8938831b7b50b84d574301480a445dc2fdd07b586b5bae8416863c7deb3f1054f83361600665b7
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 89 | 7d37618de958e37b1b30d82d372361286a243da29db01b380b3bcee476e65c1d8b5f07df9ae706a2ff8a4326000000e249665d789156771dc59a52623f238836c70f97f5e77ded8220b3734c494d534f4d4b534c454e53494c
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x7d, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0x7b9ae7a2, dwCrc32=0x438affa2)
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x26, dwCrc32=0x5d6649e2) | dwCrc32Data: 0x5d6649e2
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x5, dwSessionId=0x600a2bec)
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:  [#] Get a new node
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:  node_id: b8e72f1f425ef54bba72ea889a0090ff node: 140.206.183.41:52829
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:  adding node to store
+2022-02-10 14:23:54 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | 7d37618de958e37b1b30d82d372361286a243da29db01b380b3bcee476e65c1d8b5f10df9ae70630b44a91
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 89 | 36372ac6a213a830507b93667c682a63216f76e9d6fb5073407085af3dad1756c01407c4338d8956815181260000003d52ca0833da1d3c5635dfe2b8cd73327bb89bcf7c5327d8e06bf8380702061804060018070e05180202
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x36, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0xbfbb05f2, dwCrc32=0x81518156)
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x26, dwCrc32=0x8ca523d) | dwCrc32Data: 0x8ca523d
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x5, dwSessionId=0x600a2bec)
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:  [#] Get a new node
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:  node_id: 03e9d48efb45044d8eadf94a6511eed6 node: 140.206.183.44:52829
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:  adding node to store
+2022-02-10 14:24:33 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | 36372ac6a213a830507b93667c682a63216f76e9d6fb5073407085af3dad1756c01410c4338d89c4ca9153
+2022-02-10 14:25:04 CET:grace_p2p_client:INFO:saving ctx to to store.json
+2022-02-10 14:25:04 CET:grace_p2p_client:INFO:stopping bot

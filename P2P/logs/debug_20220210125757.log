@@ -1,0 +1,9 @@
+2022-02-10 12:57:57 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 486, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 467, in emulate
+    bot.start()
+  File "../tools/grace_p2p_client.py", line 183, in start
+    addr = ('0.0.0.0', self.store['cx']['port'])
+KeyError: 'port'

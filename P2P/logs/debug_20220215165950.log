@@ -1,0 +1,16 @@
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:loading ctx from store.json
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0xf9, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=01973bb9dbacd74d8a1059072275d779, bFrameId=0x7, dwWaterMark=0x33774b07, dwCrc32=0xd20bbc7a)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x15, dwCrc32=0x378f1492) | dwCrc32Data: 0x378f1492
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x7, dwSessionId=0x5fa8a882)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:  [#] unsupported hdr.bCmdId 0x7
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0x50, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=01973bb9dbacd74d8a1059072275d779, bFrameId=0x7, dwWaterMark=0x368855c9, dwCrc32=0x8ca94da2)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x17, dwCrc32=0x5959510c) | dwCrc32Data: 0x5959510c
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x9, dwSessionId=0x5fa8a882)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:  [#] unsupported hdr.bCmdId 0x9
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0xa6, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=01973bb9dbacd74d8a1059072275d779, bFrameId=0x7, dwWaterMark=0x6ac68bd9, dwCrc32=0xd0a5e8ae)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x17, dwCrc32=0xbfd28b65) | dwCrc32Data: 0xbfd28b65
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x9, dwSessionId=0x5fa8a882)
+2022-02-15 16:59:50 CET:grace_p2p_client:INFO:  [#] unsupported hdr.bCmdId 0x9

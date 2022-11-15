@@ -1,0 +1,9 @@
+2022-02-10 12:57:23 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 485, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 466, in emulate
+    bot.start()
+  File "../tools/grace_p2p_client.py", line 182, in start
+    addr = ('0.0.0.0', self.store['cx']['port'])
+TypeError: 'NoneType' object is not subscriptable

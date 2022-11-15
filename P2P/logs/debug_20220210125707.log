@@ -1,0 +1,9 @@
+2022-02-10 12:57:07 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 485, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 465, in emulate
+    bot.init_store(config)
+  File "../tools/grace_p2p_client.py", line 179, in init_store
+    self.store['nodes'].append(n)
+AttributeError: 'dict' object has no attribute 'append'

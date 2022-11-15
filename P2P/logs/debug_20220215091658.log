@@ -1,0 +1,10 @@
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:loading ctx from store.json
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:starting aNetworkId: 1CF094259E06664DA5504A5E1C551759 aNodeId: 1d37319760cfbc42b559833448f60ba6
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:listening on 0.0.0.0:52829
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:starting received thread
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0x73b55, dwCrc32=0x0)
+2022-02-15 09:16:58 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x1, dwSessionId=0x73b55), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=1d37319760cfbc42b559833448f60ba6, wNodeBindedPort=0xce5d)
+2022-02-15 09:17:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0x73b5f, dwCrc32=0x0)
+2022-02-15 09:17:08 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktRecord(hdr=NodePktDataHeader(bCmdId=0x9, dwSessionId=0x73b5f), aRecordId=bbbd9035b2a3ce4fb2a563f5fc6572df)
+2022-02-15 09:17:18 CET:grace_p2p_client:INFO:saving ctx to to store.json
+2022-02-15 09:17:18 CET:grace_p2p_client:INFO:stopping bot

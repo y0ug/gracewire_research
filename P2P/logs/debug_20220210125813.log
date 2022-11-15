@@ -1,0 +1,11 @@
+2022-02-10 12:58:13 CET:grace_p2p_client:INFO:listening on 0.0.0.0:52829
+2022-02-10 12:58:13 CET:grace_p2p_client:INFO:starting received thread
+2022-02-10 12:58:13 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 486, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 467, in emulate
+    bot.start()
+  File "../tools/grace_p2p_client.py", line 194, in start
+    for item in self.nodes:
+AttributeError: 'P2PBot' object has no attribute 'nodes'

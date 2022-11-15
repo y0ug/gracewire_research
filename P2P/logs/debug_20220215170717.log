@@ -1,0 +1,29 @@
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:loading ctx from store.json
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:starting aNetworkId: 1CF094259E06664DA5504A5E1C551759 aNodeId: 1d37319760cfbc42b559833448f60ba6
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:listening on 0.0.0.0:52829
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:starting received thread
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0x7a990, dwCrc32=0x0)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x1, dwSessionId=0x7a990), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=1d37319760cfbc42b559833448f60ba6, wNodeBindedPort=0xce5d)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 90 | 80379c7014a51e86e6cd25d0cade9cd597d99db7b117e04f3cc235d903b4c8768b260710298780bf1b8d9c2700000088b95ee58110298780613c673c0c508fc3080992ae6b4753a99db7b117e04f3cc235d903b4c8768b26dd4e
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 43 | 80379c7014a51e86e6cd25d0cade9cd597d99db7b117e04f3cc235d903b4c8768b2610102987802d504d4e
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x10, dwWaterMark=0x7a990, dwCrc32=0x4e4d502d)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:[#] echo recv
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | recv | size 90 | 453759b5d160db432308e0150f1b5910521c059aa58823003303f6dc4ede6425b36707b1b3c9caf83a1eb8270000009160297347f9e4634da4f9a2f9c9954a06cdcc576bae82966cabe8454d613d46a1b2e646a70d153189b2e6
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x45, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=40dfe0cd66457646b3990b9b2160f622, bFrameId=0x7, dwWaterMark=0x8f8cf6f4, dwCrc32=0xb81e3af8)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x27, dwCrc32=0x73296091) | dwCrc32Data: 0x73296091
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x2, dwSessionId=0x826a1bc)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:  [#] add node to probes
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:  NodePktInvitation(hdr=NodePktDataHeader(bCmdId=0x2, dwSessionId=0x826a1bc), aInvitationId=e1bce7bc8cd00f438889122eebc7d329, aNodeId=eead0008247803e4f7a303e2485074cc, wNodeBindedPort=0xa3f7)
+2022-02-15 17:07:17 CET:grace_p2p_client:INFO:45.129.137.237:33964 | send | size 43 | 453759b5d160db432308e0150f1b5910521c059aa58823003303f6dc4ede6425b36710b1b3c9ca6a71de6a
+2022-02-15 17:07:27 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktHeader(bKey=0x80, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=1d37319760cfbc42b559833448f60ba6, bFrameId=0x7, dwWaterMark=0x7a99a, dwCrc32=0x0)
+2022-02-15 17:07:27 CET:grace_p2p_client:INFO:45.129.137.237:33964 | NodePktRecord(hdr=NodePktDataHeader(bCmdId=0x9, dwSessionId=0x7a99a), aRecordId=997378fcd959aa48893cb3bb84541841)
+2022-02-15 17:07:27 CET:grace_p2p_client:ERROR:fatal error
+Traceback (most recent call last):
+  File "../tools/grace_p2p_client.py", line 583, in <module>
+    emulate()
+  File "../tools/grace_p2p_client.py", line 563, in emulate
+    bot.ask_record(('45.129.137.237', 33964), bytes.fromhex('997378FCD959AA48893CB3BB84541841'), 0)
+  File "../tools/grace_p2p_client.py", line 355, in ask_record
+    hd =  pkt.pack() + data
+TypeError: can't concat str to bytes

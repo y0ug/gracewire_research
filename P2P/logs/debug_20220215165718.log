@@ -1,0 +1,6 @@
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:loading ctx from store.json
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:NodePktHeader(bKey=0xf9, bVersion=0x37, aNetworkId=1cf094259e06664da5504a5e1c551759, aNodeId=01973bb9dbacd74d8a1059072275d779, bFrameId=0x7, dwWaterMark=0x33774b07, dwCrc32=0xd20bbc7a)
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:[#] processing data SingleDataPktHdr(dwSize=0x15, dwCrc32=0x378f1492) | dwCrc32Data: 0x378f1492
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:[#] fit one packet
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:NodePktDataHeader(bCmdId=0x7, dwSessionId=0x5fa8a882)
+2022-02-15 16:57:19 CET:grace_p2p_client:INFO:  [#] unsupported hdr.bCmdId 0x7
