@@ -1,5 +1,6 @@
 import sys, argparse
 import pefile
+import struct
 
 class GraceUnpacker(object):
     def __init__(self):
@@ -13,7 +14,7 @@ class GraceUnpacker(object):
     def unpack(self):
         parser = argparse.ArgumentParser(description='Simple unpacker')
         parser.add_argument('-f', '--filename', required=True)
-        parser.add_argument('-o', '--offset', default=0x6000, type=auto_int)
+        parser.add_argument('-o', '--offset', default=0x6000, type=lambda x: int(x,0))
         args = parser.parse_args(sys.argv[2:])
 
         pe = pefile.PE(args.filename)
@@ -42,7 +43,7 @@ class GraceUnpacker(object):
         parser = argparse.ArgumentParser(description='Simple unpacker')
         parser.add_argument('-f', '--filename', required=True)
         parser.add_argument('-k', '--key', required=True)
-        parser.add_argument('-o', '--offset', default=0x6000, type=auto_int)
+        parser.add_argument('-o', '--offset', default=0x6000, type=lambda x: int(x,0))
         args = parser.parse_args(sys.argv[2:])
 
         pe = pefile.PE(args.filename)
